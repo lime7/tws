@@ -1,0 +1,37 @@
+// style.scss
+
+// @import '_variables';
+// @import '~bootstrap/scss/bootstrap';
+// @import 'tiny-slider/src/tiny-slider';
+// @import 'base';
+// @import 'components';
+// @import 'layout';
+// @import 'pages';
+// @import 'themes';
+// @import 'utils';
+// @import 'vendors';
+
+// @import "tailwindcss/base";
+// @import "tailwindcss/components";
+// @import "tailwindcss/utilities";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-blue {
+  @apply items-center justify-center bg-blue-500 rounded-full h-16 text-xl font-medium hover:bg-blue-700 text-white;
+}
+
+.btn-white {
+  @apply items-center justify-center bg-white text-blue-900 rounded-full h-16 text-xl font-medium;
+}
+
+.icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}

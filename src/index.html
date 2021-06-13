@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+	<title><%= htmlWebpackPlugin.options.title %></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico"> 
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+	<div class="project"> 
+		@require('./components/navbar.html')
+
+			
+		<!-- Main content  : start -->
+    <main>
+      <div class="grid grid-cols-12">
+      	<div class="col-start-1 col-span-8 bg-blue-900 pt-60 pb-32">
+      		<div class="pl-4">
+      			<h1 class="xl:text-8xl 2xl:text-9xl text-white font-serif font-bold mb-16">
+      				Manager <br>your Work <br>with App
+      			</h1>
+
+      			<p class="text-2xl leading-8 text-white mb-16 pb-2">
+      				Get you works perfectly from our <br>app for better time.
+      			</p>
+
+      			<a href="#" class="btn btn-white inline-flex px-20">
+      				<span>Download App</span>
+      			</a>
+      		</div>
+      	</div>
+      </div>
+
+      <div class="grid grid-cols-12 py-40">
+      	<div class="col-start-2 col-span-5">
+      		<h2 class="xl:text-5xl 2xl:text-6xl font-serif font-bold mb-4">
+      			We are your best choise
+      		</h2>
+      		<p class="text-xl leading-8 mb-0">
+      			We are the best worker service in the world <br>
+      			don’t worry to select us.
+      		</p>
+      	</div>
+      	<div class="col-start-7 col-span-3">
+      		<div class="flex items-center">
+      			<div class="xl:w-20 2xl:w-36 xl:h-20 2xl:h-36 xl:mr-6 2xl:mr-12">
+      				<img src="images/icon-1.svg" alt="" class="w-full h-full">
+      			</div>
+      			<div>
+      				<h3 class="xl:text-5xl 2xl:text-7xl leading-none font-serif font-bold mb-4">
+      					320
+      				</h3>
+              <p class="xl:text-2xl 2xl:text-32xl leading-48xl mb-0">
+              	Downloads
+              </p>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="col-start-10 col-span-3">
+      				<div class="flex items-center">
+      					<div class="xl:w-20 2xl:w-36 xl:h-20 2xl:h-36 xl:mr-6 2xl:mr-12">
+      						<img src="images/icon-2.svg" alt="" class="w-full h-full">
+      					</div>
+      					<div>
+      						<h3 class="xl:text-5xl 2xl:text-7xl leading-none font-serif font-bold mb-4">
+      							7, 100
+      						</h3>
+      		        <p class="xl:text-2xl 2xl:text-32xl leading-48xl mb-0">
+      		        	Users
+      		        </p>
+      					</div>
+      				</div>
+      	</div>
+      </div>
+
+      <div class="grid grid-cols-12">
+      	<div class="col-start-2 col-span-10">
+      		<div class="bg-blue-900 py-32 px-40 rounded-7xl">
+      			<div class="w-5/8">
+      				<h2 class="xl:text-5xl 2xl:text-6xl font-serif font-bold mb-8 text-white">
+      					Get it now for free
+      				</h2>
+      				<p class="text-xl leading-8 mb-12 text-white">
+      					App gives you the confidence that everithings organized and accounted for let's make progress on the things that are important to you.
+      				</p>
+      				<a href="#" class="btn btn-blue inline-flex px-20">
+      				  <span>Get started</span>
+      				</a>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+
+      <div class="grid grid-cols-12 grid-rows-2 py-40">
+      	<div class="row-start-1 row-span-1 col-start-2 col-span-6 mb-20">
+      		<div class="flex items-start">
+      			<p class="text-xl leading-8 w-40 mr-5 mt-2">
+      				Subscribe <br>
+      				to get updated <br>
+      				news
+      			</p>
+
+      			<span class="h-40 w-2 bg-blue-500 block"></span>
+
+      			<h2 class="xl:text-5xl 2xl:text-6xl leading-7xl font-serif font-bold mb-0 pl-32">
+      				Subscribe our <br>Newsletter
+      			</h2>
+      		</div>
+      	</div>
+
+      	<div class="row-start-2 row-span-1 col-start-4 col-span-6">
+      		<form>
+      			<div class="flex">
+      				<input type="text" name="email" placeholder="Enter your mail here">
+      				<button type="submit" class="btn btn-blue inline-flex px-20 ml-8">
+      					<span>Subscribe</span>
+      				</button>
+      			</div>
+      		</form>
+      	</div>
+      </div>
+		</main>
+    
+    @require('./components/footer.html')
+		@require('./components/svg.html')
+	</div>
+</body>
+</html>
