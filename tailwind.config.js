@@ -9,6 +9,9 @@ module.exports = {
       container: {
         // padding: '15px'
       },
+      textColor: {
+        'blue-900': '#0F2852'
+      },
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
         serif: ['Playfair Display', 'serif']
@@ -23,7 +26,14 @@ module.exports = {
         '7xl': '5rem'
       },
       borderRadius: {
-        '7xl': '5rem'
+        '7xl': '5rem',
+        '8xl': '6rem'
+      },
+      spacing: {
+        49: '12.5rem'
+      },
+      animation: {
+        'spin-slow': 'spin 5s linear infinite'
       }
     }
   },

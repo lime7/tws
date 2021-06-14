@@ -14,29 +14,42 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   
 </head>
-<body>
+<body class="text-blue-900">
 	<div class="project"> 
 		@require('./components/navbar.html')
 
 			
 		<!-- Main content  : start -->
     <main>
-      <div class="grid grid-cols-12">
-      	<div class="col-start-1 col-span-8 bg-blue-900 pt-60 pb-32">
-      		<div class="pl-4">
-      			<h1 class="xl:text-8xl 2xl:text-9xl text-white font-serif font-bold mb-16">
-      				Manager <br>your Work <br>with App
-      			</h1>
+      <div class="grid grid-cols-12 relative overflow-hidden">
+      	<div class="col-start-1 col-span-8 bg-blue-900 rounded-br-8xl pt-60 pb-32">
+      		<div class="grid grid-cols-8">
+      			<div class="col-start-2 col-span-6">
+              <h1 class="xl:text-8xl 2xl:text-9xl text-white font-serif font-bold mb-16">
+                Manager <br>your Work <br>with App
+              </h1>
 
-      			<p class="text-2xl leading-8 text-white mb-16 pb-2">
-      				Get you works perfectly from our <br>app for better time.
-      			</p>
+              <p class="text-2xl leading-8 text-white mb-16 pb-2">
+                Get you works perfectly from our <br>app for better time.
+              </p>
 
-      			<a href="#" class="btn btn-white inline-flex px-20">
-      				<span>Download App</span>
-      			</a>
+              <a href="#" class="btn btn-white inline-flex px-20">
+                <span>Download App</span>
+              </a>   
+            </div>            
       		</div>
       	</div>
+
+        <div class="xl:w-1/2 2xl:w-2/3 absolute right-40 bottom-0">
+          <img src="images/img-1.png" alt="" class="w-full max-w-5xl ml-auto ">
+        </div>
+
+        <div class="absolute right-8 bottom-32 w-49 h-49">
+          <a href="#" class="flex items-center justify-center relative w-full h-full ">
+            <img src="images/circle.svg" alt="" class="absolute top-0 left-0 w-full h-full animate-spin-slow">
+            <svg class="icon icon-play"><use xlink:href="#icon-play"></use></svg>
+          </a>
+        </div>
       </div>
 
       <div class="grid grid-cols-12 py-40">
@@ -65,26 +78,26 @@
       		</div>
       	</div>
       	<div class="col-start-10 col-span-3">
-      				<div class="flex items-center">
-      					<div class="xl:w-20 2xl:w-36 xl:h-20 2xl:h-36 xl:mr-6 2xl:mr-12">
-      						<img src="images/icon-2.svg" alt="" class="w-full h-full">
-      					</div>
-      					<div>
-      						<h3 class="xl:text-5xl 2xl:text-7xl leading-none font-serif font-bold mb-4">
-      							7, 100
-      						</h3>
-      		        <p class="xl:text-2xl 2xl:text-32xl leading-48xl mb-0">
-      		        	Users
-      		        </p>
-      					</div>
-      				</div>
+  				<div class="flex items-center">
+  					<div class="xl:w-20 2xl:w-36 xl:h-20 2xl:h-36 xl:mr-6 2xl:mr-12">
+  						<img src="images/icon-2.svg" alt="" class="w-full h-full">
+  					</div>
+  					<div>
+  						<h3 class="xl:text-5xl 2xl:text-7xl leading-none font-serif font-bold mb-4">
+  							7, 100
+  						</h3>
+  		        <p class="xl:text-2xl 2xl:text-32xl leading-48xl mb-0">
+  		        	Users
+  		        </p>
+  					</div>
+  				</div>
       	</div>
       </div>
 
       <div class="grid grid-cols-12">
       	<div class="col-start-2 col-span-10">
-      		<div class="bg-blue-900 py-32 px-40 rounded-7xl">
-      			<div class="w-5/8">
+      		<div class="flex bg-blue-900 py-32 xl:px-20 2xl:px-40 rounded-7xl">
+      			<div class="w-1/2">
       				<h2 class="xl:text-5xl 2xl:text-6xl font-serif font-bold mb-8 text-white">
       					Get it now for free
       				</h2>
@@ -95,12 +108,16 @@
       				  <span>Get started</span>
       				</a>
       			</div>
+
+            <div class="w-1/2 relative">
+              <img src="images/img-2.png" alt="" class="w-full max-w-lg ml-auto absolute right-0 -top-56">
+            </div>
       		</div>
       	</div>
       </div>
 
-      <div class="grid grid-cols-12 grid-rows-2 py-40">
-      	<div class="row-start-1 row-span-1 col-start-2 col-span-6 mb-20">
+      <div class="grid grid-cols-12 py-40">
+      	<div class="col-start-2 col-span-6 mb-20">
       		<div class="flex items-start">
       			<p class="text-xl leading-8 w-40 mr-5 mt-2">
       				Subscribe <br>
@@ -116,10 +133,10 @@
       		</div>
       	</div>
 
-      	<div class="row-start-2 row-span-1 col-start-4 col-span-6">
+      	<div class="col-start-4 col-span-6">
       		<form>
       			<div class="flex">
-      				<input type="text" name="email" placeholder="Enter your mail here">
+      				<input type="text" name="email" placeholder="Enter your mail here" class="w-full border-b border-blue-900 text-xl leading-8">
       				<button type="submit" class="btn btn-blue inline-flex px-20 ml-8">
       					<span>Subscribe</span>
       				</button>
