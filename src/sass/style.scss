@@ -20,11 +20,11 @@
 @tailwind utilities;
 
 .btn-blue {
-  @apply items-center justify-center bg-blue-500 rounded-full h-16 text-xl font-medium hover:bg-blue-700 text-white;
+  @apply items-center justify-center bg-blue-500 rounded-full h-10 lg:h-16 text-base lg:text-xl font-medium hover:bg-blue-700 text-white;
 }
 
 .btn-white {
-  @apply items-center justify-center bg-white text-blue-900 rounded-full h-16 text-xl font-medium;
+  @apply items-center justify-center bg-white text-blue-900 rounded-full h-10 lg:h-16 text-base lg:text-xl font-medium;
 }
 
 .icon {

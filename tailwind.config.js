@@ -23,7 +23,8 @@ module.exports = {
       },
       lineHeight: {
         '48xl': '3rem',
-        '7xl': '5rem'
+        '7xl': '5rem',
+        'normal': '1.2'
       },
       borderRadius: {
         '7xl': '5rem',
@@ -33,7 +34,7 @@ module.exports = {
         49: '12.5rem'
       },
       animation: {
-        'spin-slow': 'spin 5s linear infinite'
+        'spin-slow': 'spin 10s linear infinite'
       }
     }
   },
