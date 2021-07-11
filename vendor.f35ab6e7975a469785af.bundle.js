@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{7:function(o,n,s){"use strict";s.r(n);s(8);console.log("%c%s","color: lightgreen;","S>>>> vendor.js")},8:function(o,n,s){"use strict";console.log("%c%s","color: skyblue;","S>>> plugin.js >>> Some plugin for project")}},[[7,0]]]);
