@@ -15,6 +15,8 @@
 // @import "tailwindcss/components";
 // @import "tailwindcss/utilities";
 
+@import 'locomotive-scroll/src/locomotive-scroll';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
